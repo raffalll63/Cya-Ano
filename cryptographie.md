@@ -184,3 +184,23 @@ Décimal | Octal | Hex | Binaire | Caractère | Info
 >La table ASCII est composée de 128 caractères, il est possible de décaler ceux-ci d'un rang N pour obtenir un autre caractères.
 >#### Principe de déchiffrement
 >Il suffit de décaler la table ASCII dans le sens inverse du chiffrement.
+
+## Enigma ([wiki](http://bit.ly/2sSesOG))
+>#### Comment encoder avec Enigma ? (Principe de chiffrement)
+>dCode propose de coder/décoder avec 3 types de machines (Wehrmacht/Luftwaffe à 3 rotors et Kriegsmarine à 3 ou 4 rotors). Chaque modèle fonctionne avec certains rotors et réflecteurs.
+
+Machine|Rotors|Réflecteurs
+---------------|----------------|----------------
+Wehrmacht / Luftwaffe 3|I, II, III, IV et V|B ou C
+Kriegsmarine 3|I, II, III, IV, V, VI, VII et VIII|B ou C
+Kriegsmarine 4|I, II, III, IV, V, VI, VII, VIII, Beta et Gamma|BThin ou CThin
+
+>Les rotors ont des encoches pour l'entrainement, pour le rotor I, le passage de Q à R entraîne le rotor suivant, les lettres d'entrainement changent en fonction des rotors et ne peuvent pas être configurées ici.
+>Les rotors peuvent être montés dans n'importe quel ordre mais Beta et Gamma ne peuvent être qu'en position 4 et doivent s'accompagner des réflecteurs B Thin ou C Thin.
+>Un rotor peut avoir une position initiale variable (il y a 26 positions) qu'il faut configurer à chaque usage. Les rotors sont équipés d'une roue alphabet, qui était fixe dans les premières machines Enigma, mais qui peut se déplacer sur la roue dans les versions suivantes, sa position est appelée Ringstellung.
+>#### Comment reconnaitre le chiffre Enigma ?
+>Le message chiffré n'est constitué que de lettres et n'a aucune lettre initiale identique à la lettre chiffrée.
+>#### Quelle est la différence entre la position initiale des rotors et la position de la roue alphabet ?
+>Certains rotors ont la roue sur laquelle il y a un alphabet qui est fixe, dans ce cas rotor et roue sont la même chose, mais parfois la roue n'est pas fixe et peut être décalée par rapport au rotor.
+>#### Quand Enigma a-t-il été inventé ?
+>Vers 1920
