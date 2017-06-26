@@ -27,12 +27,12 @@
 >###### Dans le code A voté, A vaut T (a voté), le décalage est de 19
 
 >#### Quand le code César a-t-il été inventé ?
->On l'ignore mais César est né en 100 av. JC
+>On l'ignore mais César est né en 100 av. , il l'utilisait pour Chiffrer ses conversations secrètes
 
 ## Code ACSII
 
 >#### Comment encoder avec la table ASCII ? (Principe de chiffrement)
->Le chiffrement consiste a remplacer chaque caractère par sa valeur dans la table ASCII. Les caractères n'existant pas dans la table ne peuvent pas être codés.
+>Le chiffrement consiste a remplacer chaque caractère par sa valeur dans la table ASCII. Les caractères n'existant pas dans la table ne peuvent pas être codés, ce n'est pas a proprement dit un chiffrement, la table etant publique et accessible a tous, il suffit de la posseder pour decrypter. Le chiffrement ASCII est très utilisé dans l'informatique, car il permet d'encoder des informations sur très peu de place
 >
 >dCode s'écrit 1100100 1000011 1101111 1100100 1100101 en binaire et 100 67 111 100 101 en décimal.
 >#### Comment décoder par table ASCII ? (Principe de déchiffrement)
@@ -206,5 +206,7 @@ Kriegsmarine 4|I, II, III, IV, V, VI, VII, VIII, Beta et Gamma|BThin ou CThin
 >Vers 1920
 
 ## clé asymétrique RSA
+Le chiffrage asymetrique est un chiffrage ou la clé d'encryptage est differente de la clé de decryptagOn ne peux donc pas decrypter les données avec la clé d'encryptage, il faut pour cela recuperer la clé de decryptage, seule possibilité. Une clé Asymetrique Rsa est obtenue grace a un calcul assez compliqué (φ(n) = (p - 1)(q -1) ).
+Ce cryptage, extremement sécurisé, est cassable uniquement par la BruteForce (test de toutes les clés possible) donc extremement fastidieux.
 * [openclassrooms](http://bit.ly/2tLSexS)
 * [wiki](http://bit.ly/1VUidO8)
