@@ -210,3 +210,46 @@ Le chiffrage asymetrique est un chiffrage ou la clé d'encryptage est differente
 Ce cryptage, extremement sécurisé, est cassable uniquement par la BruteForce (test de toutes les clés possible) donc extremement fastidieux.
 * [openclassrooms](http://bit.ly/2tLSexS)
 * [wiki](http://bit.ly/1VUidO8)
+
+## binaire
+
+>#### Comment convertir en binaire ? (Principe de chiffrement)
+>Il suffit de réaliser un changement de base arithmétique en base 2
+>
+>5 (base 10) = 1\*2^2+0\*2^1+1\*2^0 = 101 (base 2).
+>#### Comment convertir du binaire ? (Principe de déchiffrement)
+>Il s'agit du changement de basehref 2 vers la base 10
+>111 (base 2) = 1\*2^2+1\*2^1+1\*2^0 = 7 (base 10)
+>#### Qu'est ce qu'un bit ?
+>Un bit (de l'anglais binary digit) est un chiffre de la numération binaire : 0 ou 1.
+>#### Pourquoi définir un nombre de bits ?
+>En informatique la place n'est pas illimitée, et on stocke les nombres dans des cases de taille N ou N est le nombre de bits.
+>#### Combien faut-il de bits pour représenter un nombre ?
+>Celà dépend de la taille du nombre, voici les intervalles min-max :
+
+nombre de bits|nombre de chiffre (en base 10)
+---|---
+0-1|1
+2-3|2
+4-7|3
+8-15|4
+16-31|5
+32-63|6
+64-127|7
+128-255|8
+256-511|9
+512-1023|10
+1024-2047|11
+2048-4095|12
+2^(n-1) - (2^n)-1|n
+
+>#### Qu'est ce que le complément à 1 ?
+>En informatique, le complément à 1 est l'écriture d'un nombre entier en négatif en inversant les 0 et les 1.
+>
+>0111 devient 1000, donc 7 devient -7
+>#### Qu'est ce que le complément à 2 ?
+>En informatique, le complément à 2 est l'écriture d'un nombre entier en négatif en inversant les 0 et les 1 et en ajoutant 1.
+>
+>0111 devient 1001
+>#### Pourquoi y a-t-il 10 types de personnes dans le monde ?
+>Il y a 10 types de personnes dans le monde, ceux qui comprennent le binaires, et les autres...
